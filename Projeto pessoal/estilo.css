@@ -1,0 +1,644 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Gayathri';
+    src: url('fonts/Gayathri-Regular.ttf') format('truetype'), url('fonts/Gayathri-Bold.ttf') format('truetype'), url('fonts/Gayathri-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-size: 1em;
+    font-weight: normal;
+}
+*{ 
+  padding: 0;
+box-sizing: border-box;
+font-family: 'Arial';
+}
+nav{
+    margin: auto;
+    display: inline-block;
+    background-color:#006370;
+}
+header{
+margin: auto;
+font-family: serif;
+font-size: 1.2em;
+font-style: italic;
+background-color: #F56600;
+border-radius: 5px;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.562);
+text-align: center;
+}    
+ul{
+    margin-top: -15px;
+    list-style: none;
+    display: inline-block;
+    
+}
+ul li{
+    margin: auto;
+    float: left;
+}
+
+ul li a{
+    margin: auto;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+ul li a:hover{
+    background:#000000;
+    color: #ffffff;
+    border-radius: 5px;
+     box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow: 1px 1px 5px #fff;
+
+}
+li ul{
+    text-align: center;
+    background-color: #01d2f7d0;
+}
+p::first-letter{
+color: red;
+font-size: larger;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+}
+p{
+    font-family: 'Gayathri', Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 20px; 
+    text-align: justify;
+    text-indent: 15px;
+}
+body{
+    background-color:#006370;
+    text-align: center;
+}
+section{
+    box-shadow: 5px 5px 15px #004b9698;
+    border: 0.1px solid rgba(0, 0, 0, 0.158);
+    border-color: #436436;
+    background-color: #ffffff;
+    width: 75%;
+    height: 75%;
+    margin:auto;
+    border-radius: 5px;
+    display: block;
+    
+}
+#foto{
+text-align: left;
+}
+img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+.curriculo{      
+ width: 335px;
+ height: 720px;
+ background-color: #496267e8;
+ margin-left: 17%;
+ margin-top: 2px;
+display: block;
+ padding: 1px;
+ border-radius: 0%;
+ float: left;
+
+
+}
+.curriculo>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-indent: 0%;
+    margin-left: 28px;
+    display: block;
+    text-align: justify;
+    width: 204px;
+    height: 25px;
+    color: white;
+
+
+}
+.curriculo>p::first-letter{
+    color: white;
+    font-weight: normal;
+}
+.curriculo>img{
+    padding: 1px;
+    
+}
+.icones{
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-left: 7px;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+.dados{
+    font-size: 0.9em;
+    color: white;
+    text-align: left;
+    margin-left: 7px;
+    margin-top: -3px;
+    margin-right: 5px;
+    height: 25px;
+    
+}
+hr{
+    width: 100%;
+    margin-top: -8px;
+}
+.habilidades{
+    font-size: 10px;
+    list-style: inside;
+    margin-top: 10px;
+    margin-left: 7px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+.competencias{
+    text-align: justify;
+    margin-bottom: 11px;
+    margin-right:89px;
+}
+.idiomas{
+    font-size: 0.9em;
+    color: white;
+    text-align: left;
+    margin-left: 72px;
+    margin-top: -3px;
+    margin-right: 5px;
+    height: 25px;
+}
+h6{
+    color: white;
+    text-align: left;
+    margin-left: 67px;
+    margin-top: -6px;
+    height: 0px;
+}
+label{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+div{
+    display: inline-block;
+    width: 27px;
+    height: 6px;
+    border: 1px solid;
+    margin-left: -10px;
+    margin-right: 8px;
+    margin-top: -7px;
+    margin-bottom: 19px;
+
+}
+.nivel{
+    background-color: white;
+}
+#direita{
+float: right;
+margin-right: 86px;
+font-style: italic;
+font-weight: bold;
+}
+.resumo{
+    width: 553px;
+    background-color: white;
+    border: 1px solid;
+    height: 722px;
+    margin-left: 40%;
+    margin-top: 2px;
+    position: absolute;
+    display: block;
+
+}
+.mim::first-letter{
+    color: #3c5155;
+    font-style: normal;
+    font-weight: normal;
+}
+.mim{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.4px;
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-indent: 0px;
+    color: #3c5155;
+}
+.sobremim{
+    text-align: left;
+    margin-left: 5px;
+}
+#diferente{
+width: 100% ;
+border: 3px solid;
+background-color: #000000;
+}
+.titulo{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color:#496267;
+}
+.destaques{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.local{
+    margin-left: 5px;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    color:#3c5155;
+    font-size: 14px;
+}
+.ladodireito{
+    float: right;
+    text-align: right;
+    color: #3c5155;
+    font-size: 14px;
+    margin-top: -19px;
+    margin-right: 10px;
+   
+
+}
+.dados2{
+    font-size: 0.9em;
+    color: #3c5155;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 52px;
+    height: 25px;
+    list-style: inside;
+    
+}
+.formacao{
+    font-size: 14px;
+    
+}
+.menuemb{
+    display: none;
+}
+.maior{
+    font-size: 19px;
+    padding: 20px;
+    
+}
+
+@media (max-width:1280px) {
+
+    h2{
+        text-align: center;
+    }
+    .menuemb{
+        width: 45px;
+        height: 30px;
+        position: absolute;
+        left: 20px;
+        top: 34px;   
+        padding: 5px;
+        display: none;
+        background-color: #333;
+        cursor: pointer; 
+        }
+        .menuemb span{
+            height: 3px;
+            display: block;
+            margin-bottom: 5px;
+            background-color: #fff;
+        }
+        
+        ul{
+      display: block;
+    }
+    nav ul li{
+        position: relative;
+        bottom: -91px;
+        font-size: 17px;
+        display: block;
+      }
+      nav ul li a{
+        display: block;
+        padding: 12px;
+        text-decoration: none;
+        color:#000000;
+  
+    }
+    body{
+        text-align: left;
+    }
+    
+.nav ul li a:hover {
+    background-color: rgba(0,0,0,.1);
+  }
+      
+      
+    .menuemb span{
+        height: 3px;
+        display: block;
+        margin-bottom: 5px;
+        background-color: #fff;
+        
+}
+}
+
+
+
+
+
+
+
+@media(max-width:1024px) {
+    nav{
+        position: fixed;
+        width: 180px;
+        height: 100%;
+        left:0px;
+        top: 0px;
+        overflow: hidden;
+        display: inline-block;
+    background-color:white;
+        transition-duration: 0.3s;
+        animation-duration: 0.3s;
+        -moz-animation-duration: 0.3s;
+    }
+    .menuemb{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    img{
+        width: 165px;
+        height: 165px;
+    }
+    .curriculo{
+        width: 253px;
+        margin-left: 89px;
+    }
+    .icones {
+        margin-left: 1px;
+        margin-top: 1px;
+        margin-right: 1px;
+        height: 15px;
+        width: 15px;
+    }
+    hr{
+        width:100% ;
+    }
+    .dados{
+        font-size: 1em;
+        color: white;
+        text-align: left;
+        margin-left: 6px;
+        margin-top: -3px;
+        margin-right: 12px;
+        height: 25px;
+} 
+.competencias{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+.curriculo>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-indent: 0%;
+    margin-left: 13px;
+    display: block;
+    text-align: left;
+    width: 207px;
+    height: 25px;
+    color: white;
+}
+section{
+    width: 100%;
+}
+.resumo{
+    width: 453px;
+    margin-left:40.5%;
+}
+.mim{
+    margin-left: 1px;
+    margin-right: 1px ;
+    margin-top: -10px;
+    font-size: 16px;
+}
+.titulo{
+    font-size: 1.6em;
+    margin-left: 1px;
+}
+#diferente{
+    width: 100% ;
+    border: 2px solid;
+    background-color: #000000;
+    margin-top: 10px;
+    }
+    .destaques{
+        width: 100%;
+        border: 1px solid black;
+        margin-top: 41px;
+        margin-bottom: 14px;
+    }
+    .sobremim{
+        margin-left: 1px;
+        margin-top: 10px;
+        font-size: 1.3em;
+    }
+    .local{
+        margin-top: 9px;
+        margin-left: 1px;
+        font-size: 14px;
+    }
+    .ladodireito{
+        float: right;
+        text-align: right;
+        color: #3c5155;
+        font-size: 12px;
+        margin-top: -19px;
+        margin-right: 5px;
+
+}
+.dados2{
+    font-size: 0.9em;
+    color: #3c5155;
+    text-align: left;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-right: 16px;
+    height: 25px;
+    list-style: inside;
+
+}
+.formacao{
+    font-size: 10px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:510px) {
+    nav{
+        position: fixed;
+        width: 180px;
+        height: 100%;
+        left:0px;
+        top: 0px;
+        overflow: hidden;
+        display: inline-block;
+    background-color:white;
+        transition-duration: 0.3s;
+        animation-duration: 0.3s;
+        -moz-animation-duration: 0.3s;
+    }
+    .menuemb{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    img{
+        width: 120px;
+        height: 120px;
+    }
+    .curriculo{
+        width: 180px;
+        margin-left: 0px;
+    }
+    .icones {
+        margin-left: -3px;
+        margin-top: -4px;
+        margin-right: 1px;
+        height: 12px;
+        width: 12px;
+    }
+    hr{
+        width:100% ;
+    }
+    .dados{
+        font-size: 0.8em;
+        color: white;
+        text-align: left;
+        margin-left: 6px;
+        margin-top: -3px;
+        margin-right: 12px;
+        height: 25px;
+} 
+.competencias{
+        text-align: left;
+        margin-bottom: 10px;
+        margin-right: 70px
+}
+.curriculo>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-indent: 0%;
+    margin-left: 12px;
+    display: block;
+    text-align: left;
+    width: 168px;
+    height: 25px;
+    color: white;
+    margin-top: 2px;
+}
+
+section{
+    width: 100%;
+}
+.resumo{
+    width: 223px;
+    margin-left:175px;
+}
+.mim{
+    margin-left: 3px;
+    margin-right: 3px ;
+    margin-top: 1px;
+    font-size: 12px;
+}
+.titulo{
+    font-size: 1em;
+    margin-left: 3px;
+}
+#diferente{
+    width: 100% ;
+    border: 2px solid;
+    background-color: #000000;
+    }
+    .destaques{
+        width: 100%;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+    .sobremim{
+        margin-left: 3px;
+        margin-top: 10px;
+        font-size: 0.8em;
+    }
+    .local{
+        margin-top: 9px;
+        margin-left: 1px;
+        font-size: 10px;
+    }
+    .ladodireito{
+        float: right;
+        text-align: right;
+        color: #3c5155;
+        font-size: 10px;
+        margin-top: -13px;
+        margin-right: 5px;
+
+}
+.dados2{
+    font-size: 0.7em;
+    color: #3c5155;
+    text-align: left;
+    margin-left: 2px;
+    margin-top: 1px;
+    margin-right: 1px;
+    height: 20px;
+    list-style: inside;
+
+}
+.formacao{
+    font-size: 10px;
+
+}
+p{
+    font-family: 'Gayathri', Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px; 
+    text-align: justify;
+    text-indent: 7px;
+
+}
+}

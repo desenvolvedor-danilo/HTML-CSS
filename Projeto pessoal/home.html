@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Objetivo</h1></header>
+        <nav>   
+        <ul>
+            
+                <li><a href="home.html" rel="next">Home</a></li>
+                <li><a href="sobre.html">Quem eu sou</a></li>
+                <li><a href="soft_skills.html">Quais são minhas soft skills</a></li>
+                <li><a href="hard_skills.html">Quais são minhas hard skills</a></li>
+                <li><a href="curriculo.html">Meu currículo</a></li>
+                <li><a href="contato.html">Meu contato</a></li>
+            </ul>
+        </nav>
+        
+            <span class="menuemb">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            
+            <script src="jquery-3.7.1.min.js"></script>
+            <script>
+            $(document).ready(function(){
+                $('.menuemb').click(function(){
+                    $('nav').toggle();
+                });     
+            });
+        </script>  
+    <section>
+        <p>Esta pagina visa trazer uma visão de quem é Danilo Kelve Meireles de Oliveira e mostrando seus pontos fortes, mas támbem seus pontos fracos  dar um visão para os recrutadores em potencial a quem  eles estarão contratando caso optem por este profissional.</p>
+    </section>
+</body>
+</html>

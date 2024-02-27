@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu currículo</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>    
+
+<header>
+    <h1>Meu currículo</h1></header>
+    <nav>
+    <ul>
+        
+            <li><a href="home.html" rel="next">Home</a></li>
+            <li><a href="sobre.html">Quem eu sou</a></li>
+            <li><a href="soft_skills.html">Quais são minhas soft skills</a></li>
+            <li><a href="hard_skills.html">Quais são minhas hard skills</a></li>
+            <li><a href="curriculo.html">Meu currículo</a></li>
+            <li><a href="contato.html">Meu contato</a></li>
+        </ul>
+    </nav>
+    <span class="menuemb">
+        <span></span>
+        <span></span>
+        <span></span>
+    </span>
+    
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.menuemb').click(function(){
+            $('nav').toggle();
+        });     
+    });
+</script>
+        
+        <section class="curriculo">
+            <h1 id="foto"><img src="imagens/14705832_865996463535787_2156336922300852832_n.jpg" alt="Foto de Danilo"></h1>
+            <hr>
+            <h1 class="dados">CONTATO </h1>
+            <img class="icones" src="imagens/Iconsmind-Outline-Location-2.16.png" alt="endereço"><p>  Rua 11 quadra 71 lote 23 Parque Santa Fé, Luziânia-GO
+                </p>
+                <img class="icones" src="imagens/icons8-telefone-16.png" alt="telefone">
+                <p>61999144682</p>
+                <img class="icones" src="imagens/icons8-nova-mensagem-50.png" alt="email">
+                <p>danilokelvemeireles45@gmail.com</p>
+                <hr>
+                <h1 class="dados">HABILIDADES E <br> COMPETÊNCIAS</h1>
+                <ul class="habilidades">
+                    <li class="competencias">Desenvolvimento em java ee</li>
+                    <li class="competencias">Ferramentas de desenvolvimento java web</li>
+                    <li class="competencias">Git e Github
+                    <li class="competencias">Mysql e Postgresql
+                    <li class="competencias">Conhecimento em html5, css3 e javascript</li>
+                    <li class="competencias">Docker e Docker-compose</li>
+                    <li class="competencias">inglês intermediário (Escrita e leitura)</li>
+                    <li class="competencias">comunicativo</li>
+                    <li class="competencias">facilidade em aprender</li>
+                    <li class="competencias">boa convivência em ambiente diversificado</li>
+                </ul>
+        </section>
+        <article class="resumo">
+               <h1 class="titulo">Danilo Kelve Meireles de Oliveira</h1>
+               <hr id="diferente">
+               <h2 class="sobremim">RESUMO</h2><p class="mim">Estou em busca de uma oportunidade no mercado da tecnologia, embora ainda não tenha tido a oportunidade de ter trabalhado dentro deste mercado eu estou desenvolvendo um portifólio que pode ser cofererido na minha pagina do github https://github.com/DaniloMel92. Espero poder em breve ter o prívilegio de colocar toda minha paixão pela programação em projetos reais.</p>
+               <hr class="destaques">
+               <h2 class="sobremim">EXPERIÊNCIA PROFISSIONAL</h2>
+               <label for="trabalho" class="local">Servidor Público Municipal</label>
+               <label for="trabalho" class="ladodireito">12/2019 - atual</label>
+               <label for="trabalho" class="local">Prefeitura municipal de Cristalina - <label for="trabalho" class="formacao">Cristalina, Goiás</label> </label>
+               
+               <ul class="dados2">
+                <li>Trabalha com atividades relacionadas a segurança municipal incluído a guarda do patrimonio do municipio</li>
+               </ul>
+               <hr class="destaques">
+               <h2 class="sobremim">FORMAÇÃO ACADÊMICA</h2>
+               <label for="formacao" class="local">Tecnólogo: <label for="formacao" class="formacao">Analíse e desenvolvimento de sistemas,08/2018 - 08/2020</label>
+               </label>
+               <label for="formacao" class="local">Universidade Paulista - <label for="formacao" class="formacao">Luziânia</label></label>
+        <article>
+    
+</body>
+</html>
